@@ -7,20 +7,28 @@ class PostList extends Component {
       {
         id: 1,
         author: {
-          name: "Julio Alcantara",
-          avatar: "http://localhost:8080/images/avatar.png"
+          name: "Bino",
+          avatar: "http://localhost:8080/images/bino.png"
         },
         date: "04 Jun 2019",
-        content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
+        content: "Pessoal, alguém sabe se a cilada.com está contratando?",
         comments: [
           {
             id: 1,
             author: {
-              name: "Diego Fernandes",
+              name: "Cilada",
               avatar: "http://localhost:8080/images/avatar1.png"
             },
-            content: "A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)"
-          }
+            content: "Olá Bino. Temos uma ótima oportunidade de Desenvolvedor Ninja. Ótimo sálario e com benefício de vale transporte. É necessários apenas conhecimentos em Java, C, Python, C++, C#, Visual Basic .NET, JavaScript, PHP, SQL, Swift, Ruby, Objective-C, Delphi/Object Pascal, Groovy, Assembly language, R, Visual Basic, D, MATLAB, Go, Clipper, Mercury, Monkey, MQL4, NATURAL, OpenCL, Perl, COBOL."
+          },
+          {
+            id: 2,
+            author: {
+              name: "Pedro",
+              avatar: "http://localhost:8080/images/pedro.png"
+            },
+            content: "Correeee Bino, isso eh uma cilada..."
+          },
         ]
       },
       {
@@ -29,14 +37,14 @@ class PostList extends Component {
           name: "Calos Alberto",
           avatar: "http://localhost:8080/images/avatar2.png"
         },
-        date: "04 Jun 2019",
+        date: "06 Jun 2019",
         content: "Alguém conhece um desenvolvedor de jogos?",
         comments: [
           {
             id: 1,
             author: {
               name: "JigSaw",
-              avatar: "http://localhost:8080/images/avatar4.png"
+              avatar: "http://localhost:8080/images/jigsaw.png"
             },
             content: "Do want a play a game? Eu gosto de deselvolver muitos jogos. Já tive vários clientes que morreram de tanto jogar os meus jogos."
           },
@@ -44,7 +52,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: "Batman",
-              avatar: "http://localhost:8080/images/avatar6.png"
+              avatar: "http://localhost:8080/images/batman.png"
             },
             content: "Você que é o tal do coringa???"
           }
@@ -71,7 +79,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: "Batman",
-              avatar: "http://localhost:8080/images/avatar6.png"
+              avatar: "http://localhost:8080/images/batman.png"
             },
             content: "Serve um namorado?"
           },
@@ -79,7 +87,7 @@ class PostList extends Component {
             id: 3,
             author: {
               name: "Robin",
-              avatar: "http://localhost:8080/images/avatar7.png"
+              avatar: "http://localhost:8080/images/robin.png"
             },
             content: "Eu sabia que você ia me trair Batman. :("
           },
